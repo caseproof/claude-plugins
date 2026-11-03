@@ -9,10 +9,11 @@ Run your MemberPress membership site from Claude. Ask about members, memberships
 
 ## Install in claude.ai or the Claude desktop app
 
-1. Download `membership-mcp.zip`. Don't unzip it.
-2. Open **Customize > Plugins > Add > Upload plugin** (https://claude.ai/customize/plugins) and choose the zip.
-3. Open the plugin's **Connectors** tab and connect **membership-mcp**.
-4. Sign in on membershipmcp.ai when it asks, and choose the site Claude may use.
+1. Find **Membership MCP** in Claude's directory under **Customize > Plugins** (https://claude.ai/customize/plugins) and install it.
+2. Open the plugin's **Connectors** tab and connect **membership-mcp**.
+3. Sign in on membershipmcp.ai when it asks, and choose the site Claude may use.
+
+Until the directory listing is live, add it as a custom connector instead: **Customize > Connectors > Add custom connector**, with the URL `https://mcp.membershipmcp.ai/`.
 
 Then ask, for example: "List my sites" or "How many active members do I have?"
 
@@ -25,7 +26,7 @@ From the Caseproof marketplace, add it, then install the plugin:
 /plugin install membership-mcp@caseproof
 ```
 
-On Claude Code 2.1.275 or later, one line does both: `claude plugin install membership-mcp --marketplace caseproof/claude-plugins`. Or run `claude --plugin-dir ./membership-mcp.zip`. Then run `/mcp` to sign in.
+On Claude Code 2.1.275 or later, one line does both: `claude plugin install membership-mcp --marketplace caseproof/claude-plugins`. To try it from a checkout instead, run `git clone https://github.com/caseproof/claude-plugins` and then `claude --plugin-dir claude-plugins/membership-mcp`. Then run `/mcp` to sign in.
 
 ## ChatGPT
 
