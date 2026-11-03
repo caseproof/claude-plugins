@@ -18,13 +18,14 @@ Then ask, for example: "List my sites" or "How many active members do I have?"
 
 ## Install in Claude Code
 
-From the Caseproof marketplace:
+From the Caseproof marketplace, add it, then install the plugin:
 
 ```
-/plugin install membership-mcp --marketplace caseproof/claude-plugins
+/plugin marketplace add caseproof/claude-plugins
+/plugin install membership-mcp@caseproof
 ```
 
-Or run `claude --plugin-dir ./membership-mcp.zip`. Then run `/mcp` to sign in.
+On Claude Code 2.1.275 or later, one line does both: `claude plugin install membership-mcp --marketplace caseproof/claude-plugins`. Or run `claude --plugin-dir ./membership-mcp.zip`. Then run `/mcp` to sign in.
 
 ## ChatGPT
 
