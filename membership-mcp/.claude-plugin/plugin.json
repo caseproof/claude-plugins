@@ -1,0 +1,14 @@
+{
+  "name": "membership-mcp",
+  "displayName": "Membership MCP",
+  "version": "0.1.0",
+  "description": "Run your MemberPress membership site from Claude. Connects to your sites through membershipmcp.ai: you sign in once, and Claude can list your sites, look up members, memberships and transactions, and make the changes you ask for.",
+  "author": { "name": "Membership MCP", "url": "https://membershipmcp.ai" },
+  "homepage": "https://membershipmcp.ai",
+  "license": "GPL-2.0-or-later",
+  "keywords": ["memberpress", "membership", "wordpress", "mcp"],
+  "documentationUrl": "https://membershipmcp.ai/docs/connect-your-site/",
+  "supportUrl": "https://membershipmcp.ai/support/",
+  "privacyPolicyUrl": "https://membershipmcp.ai/privacy/",
+  "termsOfServiceUrl": "https://membershipmcp.ai/terms/"
+}
