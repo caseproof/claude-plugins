@@ -30,7 +30,7 @@ On Claude Code 2.1.275 or later, one line does both: `claude plugin install memb
 
 ## ChatGPT
 
-ChatGPT doesn't take this zip. Add Membership MCP as a custom MCP server instead: open **Plugins**, choose **+**, then **Add custom MCP server**. Paste `https://mcp.membershipmcp.ai/`, tick the risk notice, and sign in on membershipmcp.ai. Works with ChatGPT Plus, Pro, Business and Enterprise; on a Business workspace, only admins and owners can add one.
+ChatGPT doesn't use this plugin. Add Membership MCP as a custom MCP server instead: open **Plugins**, choose **+**, then **Add custom MCP server**. Paste `https://mcp.membershipmcp.ai/`, tick the risk notice, and sign in on membershipmcp.ai. OpenAI says full MCP support is only on ChatGPT Business and Enterprise/Edu. Pro gets read access only: it can look things up but not make changes. Free and Plus aren’t listed. On a Business workspace, an admin or owner adds it for everyone.
 
 ## Data
 
