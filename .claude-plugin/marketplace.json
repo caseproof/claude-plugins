@@ -1,0 +1,19 @@
+{
+  "name": "caseproof",
+  "owner": {
+    "name": "Caseproof",
+    "url": "https://caseproof.com"
+  },
+  "metadata": {
+    "description": "Claude plugins from Caseproof, the maker of MemberPress."
+  },
+  "plugins": [
+    {
+      "name": "membership-mcp",
+      "source": "./membership-mcp",
+      "description": "Run your MemberPress membership site from Claude through membershipmcp.ai: list your sites, look up members, memberships and transactions, and make the changes you ask for.",
+      "category": "productivity",
+      "homepage": "https://membershipmcp.ai"
+    }
+  ]
+}
