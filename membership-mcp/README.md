@@ -6,16 +6,17 @@ Run your MemberPress membership site from Claude. Ask about members, memberships
 
 - Your WordPress site runs MemberPress and the Membership MCP plugin, connected to your membershipmcp.ai account (see https://membershipmcp.ai/docs/connect-your-site/).
 - On a Claude Team or Enterprise plan, an Owner adds the Membership MCP connector for your organization first. Members then connect with their own membershipmcp.ai sign-in. If "Add custom connector" is greyed out with "Ask an organization owner", that is this step.
+- Claude can change things on your site only as far as the site allows. In WordPress, **MemberPress > MCP > Maximum access** starts at **Read** (look things up only). Choose **Content** to let it draft posts and pages, or **Full** for every change. Changes that matter, like refunds and cancellations, still wait for you under **Waiting for you** before anything happens.
 
 ## Install in claude.ai or the Claude desktop app
 
-1. Find **Membership MCP** in Claude's directory under **Customize > Plugins** (https://claude.ai/customize/plugins) and install it.
+1. Open **Customize > Plugins** (https://claude.ai/customize/plugins), choose **Add**, then add from GitHub: `caseproof/claude-plugins`. Install **Membership MCP**.
 2. Open the plugin's **Connectors** tab and connect **membership-mcp**.
-3. Sign in on membershipmcp.ai when it asks, and choose the site Claude may use.
+3. Sign in on membershipmcp.ai when it asks, and choose the site Claude may use. Each connection works on one site; to add another site, connect again and pick it.
 
-Until the directory listing is live, add it as a custom connector instead: **Customize > Connectors > Add custom connector**, with the URL `https://mcp.membershipmcp.ai/`.
+The plugin brings the connector and a skill that teaches Claude how to work on a membership site safely. To add just the connector instead: **Customize > Connectors > Add custom connector**, with the URL `https://mcp.membershipmcp.ai/`.
 
-Then ask, for example: "List my sites" or "How many active members do I have?"
+Then ask, for example: "How many active members do I have?" or "Which members' payments failed this week?"
 
 ## Install in Claude Code
 
@@ -34,4 +35,4 @@ ChatGPT doesn't use this plugin. Add Membership MCP as a custom MCP server inste
 
 ## Data
 
-The plugin itself stores nothing and holds no keys. Claude sends your requests, and the site details they need, to https://mcp.membershipmcp.ai/, which reads from and writes to the sites you connected, under your membershipmcp.ai sign-in. See https://membershipmcp.ai/privacy/.
+The plugin itself stores nothing and holds no keys. Claude sends your requests, and the site details they need, to https://mcp.membershipmcp.ai/, which reads from and writes to the site you connected, under your membershipmcp.ai sign-in. See https://membershipmcp.ai/privacy/.
