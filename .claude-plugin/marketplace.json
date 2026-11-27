@@ -11,7 +11,7 @@
     {
       "name": "membership-mcp",
       "source": "./membership-mcp",
-      "description": "Run your MemberPress membership site from Claude through membershipmcp.ai: list your sites, look up members, memberships and transactions, and make the changes you ask for.",
+      "description": "Run your MemberPress membership site from Claude through membershipmcp.ai: look up members, memberships, subscriptions and transactions, and make the changes you ask for.",
       "category": "productivity",
       "homepage": "https://membershipmcp.ai"
     }

@@ -8,10 +8,17 @@ Claude plugins from Caseproof, the maker of MemberPress. Each plugin is a folder
 
 ## Install in Claude Code
 
+Inside Claude Code, add the marketplace, then install the plugin:
+
 ```
-/plugin install membership-mcp --marketplace caseproof/claude-plugins
+/plugin marketplace add caseproof/claude-plugins
+/plugin install membership-mcp@caseproof
 ```
 
-On an older Claude Code, add the marketplace first: `/plugin marketplace add caseproof/claude-plugins`, then `/plugin install membership-mcp@caseproof`.
+From a terminal, one command does both:
+
+```
+claude plugin install membership-mcp --marketplace caseproof/claude-plugins
+```
 
 Each plugin's folder has its own README and LICENSE.
