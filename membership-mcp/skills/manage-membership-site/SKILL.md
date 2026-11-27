@@ -36,7 +36,7 @@ Some tools also need an Administrator's WordPress account, and some only appear 
 
 ## Moving from MemberMouse or WishList Member
 
-Run the dry run first: it changes nothing and shows what would move. The MemberMouse move then goes to Waiting for you. It charges no one, calls no gateway and sends no email. Memberships and rules arrive as drafts, and MemberMouse keeps billing until the owner switches over. WishList Member has a dry run only, with no move yet.
+Run the dry run first: it changes nothing and shows what would move. The MemberMouse move then goes to Waiting for you. It charges no one, calls no gateway and sends no email. Memberships and rules arrive as drafts, and MemberMouse keeps billing until the owner switches over. For WishList Member, only the dry run is offered.
 
 ## Membership MCP's own tools
 
